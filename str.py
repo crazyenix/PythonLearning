@@ -2,7 +2,7 @@
 import random
 word = input("Введите строку или слово: ")
 
-if "сись" in word : print("В введённой переменной есть слово сиськи")
+if "проверка" in word.lower()  : print("В введённой переменной есть слово Прро")
 else : print("Мало сисек")
 
 for i in word :
