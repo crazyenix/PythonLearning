@@ -2,8 +2,8 @@
 import random
 word = input("Введите строку или слово: ")
 
-if "проверка" in word.lower()  : print("В введённой переменной есть слово Прро")
-else : print("Мало сисек")
+if "проверка" in word.lower()  : print("В введённой переменной есть слово \"проверка\"")
+else : print("Сегодня без проверок?")
 
 for i in word :
 	print(i.swapcase(), end="")
